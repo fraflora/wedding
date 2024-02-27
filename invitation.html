@@ -36,13 +36,12 @@
         /* Navigation bar */	
 	.navbar {
             overflow: hidden;
-            background-color: #333; /* Colore di sfondo del menu */
+            background-color: rgb(144,153,9); /* Colore di sfondo del menu */
         }
 
         .navbar a {
-            float: left;
+            float: right;
             display: block;
-		background-color: rgba(245,255,222,0.6);
             color: #f2f2f2; /* Colore del testo dei link */
             text-align: center;
             padding: 14px 20px;
@@ -50,34 +49,57 @@
         }
 
         .navbar a:hover {
-            background-color: #ddd; /* Colore di sfondo dei link al passaggio del mouse */
+            background-color: rgb(144,153,9); /* Colore di sfondo dei link al passaggio del mouse */
             color: black; /* Cambia colore del testo al passaggio del mouse */
         }
 
-        .navbar .icon {
-            display: none; /* Nascondi l'icona del menu all'inizio */
+
+        .dropdown {
+            float: right; /* Allinea il menu a tendina a destra */
+            overflow: hidden;
         }
 
-        @media screen and (max-width: 600px) {
-            .navbar a:not(:first-child) {display: none;} /* Nascondi i link tranne il primo su dispositivi mobili */
-            .navbar a.icon {
-                float: right;
-                display: block;
-            }
+        .dropdown .dropbtn {
+            font-size: 100%;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 20px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
         }
 
-        @media screen and (max-width: 600px) {
-            .navbar.responsive {position: relative;}
-            .navbar.responsive .icon {
-                position: absolute;
-                right: 0;
-                top: 0;
-            }
-            .navbar.responsive a {
-                float: none;
-                display: block;
-                text-align: left;
-            }
+        .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: #ddd; /* Cambia colore di sfondo al passaggio del mouse */
+            color: black; /* Cambia colore del testo al passaggio del mouse */
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            right: 0; /* Allinea il menu a tendina sulla destra */
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd; /* Cambia colore di sfondo al passaggio del mouse */
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
         }
 	        /* Fine Navigation bar */	
 	
