@@ -150,13 +150,37 @@ h1{
     
 }
 </style>
-<body >
+<body >	
     <div class="leaf-crown">
     <div>
         <div class="simple-card">
         <h1 class="centered-title">Francesco & Giulia's Wedding</h1>
         <h1 class="centered-title"></h1>
         </div>
+    <div class="navbar" id="myNavbar">
+        <a href="invitation.html">Home</a>
+	<a href="Invito.png">Scarica l'invito</a>
+        <a href="#news">Location</a>
+        <a href="#contact">Programma</a>
+        <a href="#about">Conferma partecipazione</a>
+	<a href="#about">Accomodations</a>
+	<a href="#about">Vuoi contribuire a realizzare i nostri sogni?</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i> <!-- Icona del menu a tre linee -->
+        </a>
+    </div>
+
+    <script>
+        /* Funzione per aprire e chiudere il menu a scomparsa */
+        function toggleMenu() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar";
+            }
+        }
+    </script>
     </div> 
     <div class="container">
         <div class="row">
