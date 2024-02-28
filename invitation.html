@@ -121,10 +121,12 @@
         .dropdown-content a {
             float: none;
             color: rgb(144,153,9);
+		font-size: 100%;
             padding: 12px 16px;
+		background: rgba(184, 155, 48, 1);
             text-decoration: none;
-            display: block;
-            text-align: left;
+            display: flex; /*block;*/
+            justify-content: center; /*text-align: left;*/
         }
 
         .dropdown-content a:hover {
@@ -216,7 +218,7 @@ h1{
 
         <div class="simple-card">		
 		<div class="navbar">
-		<h1 class="centered-title">Francesco & Giulia's Wedding V5.22</h1>
+		<h1 class="centered-title">Francesco & Giulia's Wedding V5.23</h1>
 	        <div class="dropdown">		
 			<button onclick="toggleMenu()"  class="dropbtn">Menu</button>
 			<div id="myDropdown" class="dropdown-content">
