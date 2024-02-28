@@ -180,10 +180,14 @@ h1{
 
 <script>
 		    /* Funzione per aprire e chiudere il menu */
-		    function toggleMenu() {
-		        var dropdown = document.getElementById("myDropdown");
-		        dropdown.classList.toggle("show");
-		    }
+			function toggleMenu() {
+			    var dropdown = document.getElementById("myDropdown");
+			    if (dropdown.classList.contains("show")) {
+			        dropdown.classList.remove("show");
+			    } else {
+			        dropdown.classList.add("show");
+			    }
+			}
 		
 		    /* Chiudi il menu se l'utente fa clic altrove nella pagina */
 		    window.onclick = function(event) {
@@ -208,7 +212,7 @@ h1{
 
         <div class="simple-card">		
 		<div class="navbar">
-		<h1 class="centered-title">Francesco & Giulia's Wedding V5.17</h1>
+		<h1 class="centered-title">Francesco & Giulia's Wedding V5.18</h1>
 	        <div class="dropdown">		
 			<button onclick="toggleMenu()"  class="dropbtn">Menu</button>
 			<div id="myDropdown" class="dropdown-content">
