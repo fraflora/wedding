@@ -109,8 +109,8 @@ body{
     background: rgba(255, 239, 184, 0.8);
     background: radial-gradient(circle, rgba(255, 239, 184, 0.8) 0%, rgba(255, 239, 184, 0.8) 100%);
 	font-size: 100%; /* Imposta la dimensione del testo al 100% rispetto alla dimensione predefinita del browser */
-
 }
+	
 h1{
     font-family: 'Tangerine', serif;
     font-size: 200%;
@@ -131,6 +131,7 @@ h1{
 .centered-title  {
     text-align: center;
 	font-size: 300%;
+	margin: 0; /* Rimuovi il margine per evitare spazi aggiuntivi */
 }
 .leaf-crown  {
     background-image: url("White Green Watercolor Leaves_v2 .png");
@@ -140,7 +141,7 @@ h1{
 .simple-card {
     background-color: rgba(245,255,222,0.6);
     display: flex;
-    /*  justify-content: space-between; Distribuisci gli elementi alla massima distanza possibile l'uno dall'altro */
+    justify-content: space-between; /* Distribuisci gli elementi alla massima distanza possibile l'uno dall'altro */
     align-items: center; /* Allinea verticalmente gli elementi al centro */
     padding: 10px; /* Aggiungi spazio intorno al contenuto */
 }
@@ -153,10 +154,11 @@ h1{
 	
 <body>	
 	<div class="leaf-crown">
-		<div class="simple-card">		
-			        <h1 class="centered-title">Francesco & Giulia's Wedding V5.24</h1> 
-				<div class="dropdown">
+		<div class="simple-card">	
 				<button onclick="toggleMenu()"  class="dropbtn">Menu</button>
+			        <h1 class="centered-title">Francesco & Giulia's Wedding V5.25</h1> 
+			
+				<div class="dropdown">
 					<div id="myDropdown" class="dropdown-content">
 				        <a href="invitation.html">Home</a>
 					<a href="Invito.png">Scarica l'invito</a>
