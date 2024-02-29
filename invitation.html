@@ -139,13 +139,16 @@ h1{
 	background-attachment: fixed;
 }
 .simple-card {
-    background-color: rgba(245,255,222,0.6);
-    display: flex;
-    justify-content: space-between; /* Distribuisci gli elementi alla massima distanza possibile l'uno dall'altro */
-    align-items: center; /* Allinea verticalmente gli elementi al centro */
-    padding: 10px; /* Aggiungi spazio intorno al contenuto */
+	display: flex;
+	background-color: rgba(245,255,222,0.6);
+	justify-content: space-between; /* Distribuisci gli elementi alla massima distanza possibile l'uno dall'altro */
+	align-items: center; /* Allinea verticalmente gli elementi al centro */
+	padding: 10px; /* Aggiungi spazio intorno al contenuto */
 }
-
+.header {
+    display: flex;
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+}
 
 </style>
 
@@ -154,12 +157,11 @@ h1{
 	
 <body>	
 	<div class="leaf-crown">
-		<div class="simple-card">	
-				<div class="dropdown">
+		<div class="simple-card">
+			    	<div class="header">
 				<button onclick="toggleMenu()"  class="dropbtn">Menu</button>
+				<h1 class="centered-title">Francesco & Giulia's Wedding V5.27</h1>
 				</div>
-			        <h1 class="centered-title">Francesco & Giulia's Wedding V5.26</h1> 
-			
 				<div class="dropdown">
 					<div id="myDropdown" class="dropdown-content">
 				        <a href="invitation.html">Home</a>
@@ -171,7 +173,7 @@ h1{
 					<a href="sogni.html">Vuoi contribuire a realizzare i nostri sogni?</a>
 					</div>
 				</div>
-	        </div>
+		</div>
 
 
 	    
