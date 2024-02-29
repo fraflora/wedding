@@ -42,7 +42,7 @@
         display: inline-block;
     }
 
-        .dropdown .dropbtn {
+        .dropdown {
             font-size: 100%;
             border: none;
             outline: none;
@@ -50,7 +50,10 @@
             padding: 14px 20px;
             background-color: rgba(184, 155, 48, 1);
             /* font-family: inherit; */
-            margin-right: 20px;
+        }
+
+	.dropbtn {
+		margin-right: 20px;
         }
 
         .dropdown:hover .dropbtn:hover {
@@ -132,9 +135,8 @@ h1{
 	
 .centered-title  {
     	flex-grow: 1; /* Permette al titolo di espandersi per occupare lo spazio rimanente */
-	text-align: center;
+	text-align: center; /* Centra il testo orizzontalmente */
 	font-size: 300%;
-	margin: 0 auto; /* Imposta il margine sinistro e destro a 'auto' per centrare il blocco */
 }
 .leaf-crown  {
     background-image: url("White Green Watercolor Leaves_v2 .png");
@@ -163,7 +165,7 @@ h1{
 		<div class="simple-card">
 			    	<div class="header">
 				<button onclick="toggleMenu()"  class="dropbtn">Menu</button>
-				<h1 class="centered-title">Francesco & Giulia's Wedding V5.32</h1>
+				<h1 class="centered-title">Francesco & Giulia's Wedding V5.33</h1>
 				<div class="dropdown">
 					<div id="myDropdown" class="dropdown-content">
 				        <a href="invitation.html">Home</a>
