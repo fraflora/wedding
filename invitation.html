@@ -83,7 +83,6 @@
 .custom-card-invite {
     font-family: 'Open Sans', serif;
     font-size: 100%;
-
     border: 1px solid #ccc;
 	border-radius: 2;
         background: rgba(245,255,222,0.6); /* rgba(255, 239, 184, 0.8); */
@@ -132,7 +131,6 @@ h1{
 	
 .centered-title  {
     	flex-grow: 1; /* Permette al titolo di espandersi per occupare lo spazio rimanente */
-	position: absolute;
 	text-align: center; /* Centra il testo orizzontalmente */
 	font-size: 300%;
 }
@@ -153,6 +151,10 @@ h1{
     align-items: center; /* Allinea verticalmente gli elementi al centro */
 }
 
+.centered-title-container {
+    text-align: center;
+}
+
 </style>
 
 </head>
@@ -162,9 +164,7 @@ h1{
 	<div class="leaf-crown">
 		<div class="simple-card">
 			    	<div class="header">
-				
 				<button onclick="toggleMenu()"  class="dropbtn">Menu</button>
-				
 				<div class="dropdown">
 					<div id="myDropdown" class="dropdown-content">
 				        <a href="invitation.html">Home</a>
@@ -176,7 +176,9 @@ h1{
 					<a href="sogni.html">Vuoi contribuire a realizzare i nostri sogni?</a>
 					</div>
 				</div>
-				<h1 class="centered-title">Francesco & Giulia's Wedding V5.37</h1>
+					<div class="centered-title-container">
+					<h1 class="centered-title">Francesco & Giulia's Wedding V5.38</h1>
+					</div>
 				</div>
 		</div>
 
