@@ -106,7 +106,8 @@
         }
 .card-title-regalo{
 	position: relative;
-	padding: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 	padding-top: 50px;
     font-family: 'Tangerine', serif;
     font-size: 150%;
@@ -115,7 +116,6 @@
 .card-text-regalo{
     font-family: 'Belleza';
     font-size: 50%;
-	margin: 5px;
 }	
 
 
