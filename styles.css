@@ -107,16 +107,16 @@
         }
 .card-title-regalo{
 	position: relative;
-	margin: 2px;
+	margin: 5px;
 	top: 50px;
     font-family: 'Tangerine', serif;
-    font-size: 50%;
+    font-size: 100%;
 	color: #627636;
 }
 .card-text-regalo{
     font-family: 'Belleza';
-    font-size: 25%;
-	margin: 3px;
+    font-size: 75%;
+	margin: 5px;
 }	
 
 
