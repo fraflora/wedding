@@ -188,4 +188,18 @@ h1{
 	font-size: 150%;
 	/* display: flex;*/
 }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0; /* Cambiare il colore di sfondo se necessario */
+    text-align: center; /* Opzionale: per centrare l'immagine orizzontalmente */
+}
+
+.footer img {
+    width: 100%;
+    height: auto;
+}
 </script>
