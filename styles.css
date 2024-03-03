@@ -98,7 +98,6 @@
 .custom-card-regalo {
     display: flex;
 	font-family: 'Open Sans', serif;
-    font-size: 100%;
     border: 1px solid #ccc;
 	border-radius: 2;
 	background-image: url("RegaloBackground.png");
@@ -111,12 +110,12 @@
 	margin: 2px;
 	top: 50px;
     font-family: 'Tangerine', serif;
-    font-size: 150%;
+    font-size: 50%;
 	color: #627636;
 }
 .card-text-regalo{
     font-family: 'Belleza';
-    font-size: 100%;
+    font-size: 25%;
 	margin: 3px;
 }	
 
