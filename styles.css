@@ -97,6 +97,7 @@
 
 .custom-card-regalo {
 	font-family: 'Open Sans', serif;
+	display: flex;
     border: 1px solid #ccc;
 	flex-wrap: wrap;
 	border-radius: 2;
