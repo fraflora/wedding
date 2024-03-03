@@ -96,7 +96,8 @@
         }
 
 .custom-card-regalo {
-    font-family: 'Open Sans', serif;
+    display: flex;
+	font-family: 'Open Sans', serif;
     font-size: 100%;
     border: 1px solid #ccc;
 	border-radius: 2;
@@ -104,10 +105,11 @@
     background-size: 100%;
         flex-basis: 75%;
             /* padding: 10px; */
-        margin: 5px;
+        
         }
 .card-title-regalo{
 	position: relative;
+	margin: 5px;
 	top: 50px;
     font-family: 'Tangerine', serif;
     font-size: 200%;
@@ -116,6 +118,7 @@
 .card-text-regalo{
     font-family: 'Belleza';
     font-size: 150%;
+	margin: 7px;
 }	
 
 
