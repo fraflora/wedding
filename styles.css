@@ -103,22 +103,21 @@
 	border-radius: 2;
 	background-image: url("RegaloBackground.png");
     background-size: 100%;
-        flex-basis: 75%;
             /* padding: 10px; */
         
         }
 .card-title-regalo{
 	position: relative;
-	margin: 5px;
+	margin: 2px;
 	top: 50px;
     font-family: 'Tangerine', serif;
-    font-size: 200%;
+    font-size: 150%;
 	color: #627636;
 }
 .card-text-regalo{
     font-family: 'Belleza';
-    font-size: 150%;
-	margin: 7px;
+    font-size: 100%;
+	margin: 3px;
 }	
 
 
