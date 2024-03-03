@@ -107,6 +107,7 @@
         }
 .card-title-regalo{
 	position: relative;
+	display: flex;
 	margin: 5px;
 	top: 50px;
     font-family: 'Tangerine', serif;
