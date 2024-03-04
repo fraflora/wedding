@@ -111,7 +111,7 @@
         padding: 10px; /* Aggiunge del padding all'interno della scheda */
 	box-sizing: border-box; /* Assicura che il padding sia incluso nelle dimensioni totali della scheda */
         width: auto; /* Imposta la larghezza automaticamente in base al contenuto */
-	max-width: 90%; /* Limita la larghezza massima della scheda */
+	/* max-width: 90%; Limita la larghezza massima della scheda */
 	margin: 0 auto;
         }
 .card-title-regalo{
@@ -120,7 +120,7 @@
 	margin-right: 10px;
 	/* padding-top: 10vh; */
     font-family: 'Tangerine', serif;
-    font-size: 6vh;
+    font-size: 5vh;
 	color: #627636;
 }
 .card-text-regalo{
