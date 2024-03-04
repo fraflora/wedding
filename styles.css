@@ -107,6 +107,7 @@
 	background-image: url("RegaloBackground.png");
     	background-size: auto 100%;
 	background-repeat: repeat-y;
+	background-position: center;
         padding: 10px;
         
         }
