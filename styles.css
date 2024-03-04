@@ -108,7 +108,7 @@
     	background-size: auto 100%;
 	background-repeat: repeat-y;
 	background-position: center;
-        padding: 20px; /* Aggiunge del padding all'interno della scheda */
+        padding: 10px; /* Aggiunge del padding all'interno della scheda */
 	box-sizing: border-box; /* Assicura che il padding sia incluso nelle dimensioni totali della scheda */
         
         }
@@ -123,7 +123,7 @@
 }
 .card-text-regalo{
     font-family: 'Belleza';
-    font-size: 50%;
+    font-size: 75%;
 		/* padding-top: 3vh; */
 }	
 
