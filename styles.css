@@ -97,11 +97,15 @@
         }
 
 .custom-card-regalo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 	font-family: 'Open Sans', serif;
     border: 1px solid #ccc;
 	border-radius: 2;
 	background-image: url("RegaloBackground.png");
-    background-size: 100%;
+    background-size: cover /* 100%; */
         padding: 10px;
         
         }
@@ -109,7 +113,7 @@
 	position: relative;
 	padding-left: 1vw;
 	padding-right: 1vw;
-	padding-top: 10vh;
+	/* padding-top: 10vh; */
     font-family: 'Tangerine', serif;
     font-size: 7vw;
 	color: #627636;
