@@ -105,7 +105,8 @@
     	border: 1px solid #ccc;
 	border-radius: 2;
 	background-image: url("RegaloBackground.png");
-    	background-size: contain; /*100%; */
+    	background-size: auto 100%;
+	background-repeat: repeat-y;
         padding: 10px;
         
         }
