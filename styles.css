@@ -117,12 +117,12 @@
 	padding-right: 1vw;
 	/* padding-top: 10vh; */
     font-family: 'Tangerine', serif;
-    font-size: 10vw;
+    font-size: 200%;
 	color: #627636;
 }
 .card-text-regalo{
     font-family: 'Belleza';
-    font-size: 3vw;
+    font-size: 75%;
 		/* padding-top: 3vh; */
 }	
 
