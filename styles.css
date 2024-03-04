@@ -125,7 +125,7 @@
 }
 .card-text-regalo{
     font-family: 'Belleza';
-    font-size: 1.5vh;
+    font-size: 0.5vh;
 	max-width: 100%; /* Imposta la larghezza massima al 100% del contenitore */
     overflow-wrap: break-word; /* Permette al testo di andare a capo se supera la larghezza massima */
 		/* padding-top: 3vh; */
