@@ -102,10 +102,10 @@
 	align-items: center;
 	height: 100%;
 	font-family: 'Open Sans', serif;
-    border: 1px solid #ccc;
+    	border: 1px solid #ccc;
 	border-radius: 2;
 	background-image: url("RegaloBackground.png");
-    background-size: 100%;
+    	background-size: contain; /*100%; */
         padding: 10px;
         
         }
