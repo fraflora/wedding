@@ -1,0 +1,217 @@
+<script>
+.leaf-4 {
+	width: 20px;
+	height: 20px;
+	border-radius: 0 20px;
+	background-color: rgba(255, 239, 184, 0.6);
+	transform: rotate(0deg);
+	          }
+        /* Personalizzazione del colore della classe btn-success */
+	  
+        .btn-custom-success {
+            color: #fff; /*Colore del testo */
+            background-color: rgb(144,153,9); /* Colore di sfondo personalizzato */
+            border: 1px solid rgb(144,153,9); /* Colore del bordo */
+        }
+
+        /* Personalizzazione del colore dell'hover della classe btn-success */
+        .btn-custom-success:hover {
+            background-color: rgb(144,153,9); /* Cambia il colore di sfondo al passaggio del mouse */
+            border: 1px solid rgb(144,153,9); /* Cambia il colore del bordo al passaggio del mouse */
+	}
+		
+        /* Dropwodn Menu */	
+	
+	.dropdown .dropbtn {
+		margin-right: 0.5px;
+		font-size: 75%;
+            /*border: none;
+            outline: none;*/
+            color: white;
+            padding: 7px 10px;
+		border-radius: 0 20px;
+            background-color: rgba(184, 155, 48, 1);
+		border: 0.5px solid rgba(184, 155, 48, 1); /* Cambia il colore della cornice a nero */
+        }
+	
+	.dropdown-empty .dropbtn-empty {
+		margin-left: 2.5px;
+		font-size: 75%;
+            /*border: none;
+            outline: none;*/
+            color: rgba(245,255,222,0);
+            padding: 14px 20px;
+		border-radius: 0 20px;
+            	background-color: rgba(245,255,222,0);;
+		border: 1px solid rgba(245,255,222,0); 
+        }
+	
+
+        .dropdown:hover .dropbtn:hover {
+            background-color: rgb(144,153,9); /* Cambia colore di sfondo al passaggio del mouse */
+            color: black; /* Cambia colore del testo al passaggio del mouse */
+        }
+
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+	    right: 0;
+	font-size: 100%;
+	color: black;
+        background-color:rgba(245,255,222,1);
+        min-width: 200px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1000;
+	    margin: 2px;
+	    border-radius: 0px;
+    }
+
+	.dropdown-content a {
+	font-size: 100%;
+	font-family: 'Open Sans', serif;
+	color: white;
+    }
+
+    .dropdown-content.show {
+        display: block;
+    }
+	        /* Fine Navigation bar */	
+	
+
+
+.card-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+.custom-card-invite {
+    font-family: 'Open Sans', serif;
+    font-size: 100%;
+    border: 1px solid #ccc;
+	border-radius: 2;
+        background: rgba(245,255,222,0.6); /* rgba(255, 239, 184, 0.8); */
+    		/* background: linear-gradient(124deg, rgba(255, 239, 184, 0.8) 0%, rgba(255, 239, 184, 0.8) 100%);  */
+        flex-basis: 75%;
+            /* padding: 10px; */
+        margin: 5px;
+        }
+
+.custom-card-regalo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vmax;
+	font-family: 'Open Sans', serif;
+    	border: 1px solid #ccc;
+	border-radius: 2;
+	background-image: url("RegaloBackground.png");
+    	background-size: auto 100%; 
+	background-repeat: repeat-y;
+	background-position: center;
+        padding: 10px; /* Aggiunge del padding all'interno della scheda */
+	box-sizing: border-box; /* Assicura che il padding sia incluso nelle dimensioni totali della scheda */
+        width: auto; /* Imposta la larghezza automaticamente in base al contenuto */
+	/* max-width: 90%; Limita la larghezza massima della scheda */
+	margin: 0 auto;
+        }
+.card-title-regalo{
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	/* padding-top: 10vh; */
+    font-family: 'Tangerine', serif;
+    font-size: 5vh;
+	color: #627636;
+}
+.card-text-regalo{
+    font-family: 'Belleza';
+    font-size: 1.6vh;
+	max-width: 100%; /* Imposta la larghezza massima al 100% del contenitore */
+    overflow-wrap: break-word; /* Permette al testo di andare a capo se supera la larghezza massima */
+		/* padding-top: 3vh; */
+}	
+
+
+.custom-card {
+    font-family: 'Open Sans', serif;
+    font-size: 100%;
+
+    border: 1px solid #ccc;
+            border-radius: 2;
+	
+            background: rgba(245,255,222,0.6); /* rgba(255, 239, 184, 0.8); */
+    		 /* background: linear-gradient(124deg, rgba(255, 239, 184, 0.8) 0%, rgba(255, 239, 184, 0.8) 100%);  */
+            flex-basis: 75%;
+            padding: 30px;
+            margin: 5px;
+        }
+body{
+    background: rgba(255, 239, 184, 0.8);
+    background: radial-gradient(circle, rgba(255, 239, 184, 0.8) 0%, rgba(255, 239, 184, 0.8) 100%);
+	font-size: 100%; /* Imposta la dimensione del testo al 100% rispetto alla dimensione predefinita del browser */
+}
+	
+h1{
+    font-family: 'Tangerine', serif;
+    font-size: 200%;
+    justify-content: center;
+}
+	
+.card-title{
+    font-family: 'Tangerine', serif;
+    font-size: 300%;
+}
+	
+.card-button {
+            display: flex;
+            justify-content: center;
+		font-size: 100%;
+	background: rgba(184, 155, 48, 1);
+	 border: 1px solid rgba(184, 155, 48, 1); /* Cambia il colore della cornice a nero */
+        }
+	
+.centered-title  {
+    	flex-grow: 1; /* Permette al titolo di espandersi per occupare lo spazio rimanente */
+	text-align: center; /* Centra il testo orizzontalmente */
+	font-size: 300%;
+}
+.leaf-crown  {
+    background-image: url("White Green Watercolor Leaves_v2 .png");
+    background-size: 100%;
+	background-attachment: fixed;
+}
+.simple-card {
+	display: flex;
+	position: right;
+	background-color: rgba(245,255,222,0.6);
+	align-items: center; /* Allinea verticalmente gli elementi al centro */
+	padding: 10px; /* Aggiungi spazio intorno al contenuto */
+}
+.header {
+    display: flex;
+    align-items: center; /* Allinea verticalmente gli elementi al centro */
+	justify-content: space-between; /* Distribuisci gli elementi alla massima distanza possibile l'uno dall'altro*/
+	background-color: rgba(245,255,222,0.8);
+	padding: 10px; /* Aggiungi spazio intorno al contenuto */
+
+}
+
+.centered-title-container {
+    text-align: center;
+	font-size: 150%;
+	/* display: flex;*/
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0; /* Cambiare il colore di sfondo se necessario */
+    text-align: center; /* Opzionale: per centrare l'immagine orizzontalmente */
+}
+
+.footer img {
+    width: 100%;
+    height: auto;
+}
+</script>
