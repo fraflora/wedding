@@ -114,13 +114,15 @@
 	/* max-width: 90%; Limita la larghezza massima della scheda */
 	margin: 0 auto;
         }
+
+
 .card-title-regalo{
-	position: relative;
+	/* position: relative;
 	margin-left: 10px;
 	margin-right: 10px;
 	/* padding-top: 10vh; */
     font-family: 'Tangerine', serif;
-    font-size: 5vh;
+    font-size: 300%;
 	color: #627636;
 }
 .card-text-regalo{
