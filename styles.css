@@ -122,12 +122,12 @@
 	margin-right: 10px;
 	padding-top: 10vh; */
     font-family: 'Tangerine', serif;
-	font-size: 250%;
+	font-size: 200%;
 	color: #627636;
 }
 .card-text-regalo{
     font-family: 'Belleza';
-    font-size: 1.6vh;
+    font-size: 150%;
 	max-width: 100%; /* Imposta la larghezza massima al 100% del contenitore */
     overflow-wrap: break-word; /* Permette al testo di andare a capo se supera la larghezza massima */
 		/* padding-top: 3vh; */
